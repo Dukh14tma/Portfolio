@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+</head>
+
+<body>
+    <div class="wrapper b-round flex flex-col m-10 pad-5 gap-10">
+        <div class="b-round b3d2 w-100 m-5 pad-5 flex flex-col">
+            <nav class="b3d b-round flex m-10 mw-100">
+                <div class="fit2 b3d2 circle m-10-10">
+                    <img class="circle fit2 b3d" src="/images/OIG.jpeg" alt="">
+                </div>
+                <div class="b-round flex m-10-5">
+                    <ul class="ldnone flex gap-30 b3d ml-300 w-300 b-round m-10 pad-10">
+                        <li class="m-2"><a class="col-red" href="/index.html">Home</a></li>
+                        <li class="m-2"><a href="/html/about.html">About</a></li>
+                        <li class="m-2"><a href="/html/services.html">Services</a></li>
+                        <li class="m-2"><a href="/html/contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="b3d2 b-round flex flex-col m-5 pad-10 w-100">
+            <div class="m-5 pad-10 b3d b-round">
+                <h3 class="m-10 pad-5 tline">latest:</h3>
+                <div class="m-5 pad-10 b3d2 flex flex-col b-round">
+                    <div class="flex flex-row2 b3d b-round m-5 pad-5">
+                        <img src="/images/OIG.jpeg" class="fit circle m-5 pad-5">
+                        <div class="post">
+                            <a class="m-5" href="#">HashKrack</a>
+                            <p class="short-text">this is a hash cracking tool for beginners<span class="dots">...</span><span class="more-read"> this is developed in bash and it support 10+ hashes like sha1 md4 md5 etc.</span></p>
+                            <button class="dinline col-blue b-none m-5" onclick="readMore(this)" id="readbtn">Read more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-10"></div>
+                <div class="m-5 pad-10 b-round b3d2">
+                    <div class="flex flex-row2 b3d b-round m-5 pad-5">
+                        <img src="/images/OIG.jpeg" class="fit m-5 circle pad-5">
+                        <div class="post">
+                            <a class="m-5" href="#">Sharingan</a>
+                            <p class="short-text">this is a port scanning  tool.<span class="dots">...</span><span class="more-read"> This is developed in C++ and it is very easy to use. It work very fast.</span></p>
+                            <button class="b-none col-blue m-5" onclick="readMore(this)" id="readbtn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-10"></div>
+                <div class="m-5 pad-10 b-round b3d2">
+                    <div class="flex flex-row2 b3d b-round pad-5">
+                        <img src="/images/OIG.jpeg" class="fit circle m-5 pad-5">
+                        <div class="post">
+                            <a class="m-5" href="#">Anjaan-tool</a>
+                            <p class="short-text">This is the ultimate web penetration testing tool.<span class="dots">...</span><span class="more-read m-5 pad-5"> This tool is made in python and it is easy to use this tool is developed for beginners and using this tool you can perform many task like Banner Grabbing, vulnerability scanning and many more</span></p>
+                            <button class="col-blue b-none m-5" onclick="readMore(this)" id="readbtn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom b3d2 b-round flex m-5 pad-10" id="social">
+            <nav class="b3d b-round flex flex-col m-10 w-100">
+                <h3 class="tline m-10 pad-5">Social</h3>                
+                <ul class="ldnone flex m-10 pad-5 gap-20">
+                    <li class=""><a href="https://www.facebook.com/profile.php?id=100025964741796&mibextid=ZbWKwL">Facebook</a></li>
+                    <li class=""><a href="https://www.instagram.com/dukh14tma?igsh=ZGNjOWZkYTE3MQ==">Instagram</a></li>                    
+                    <li class=""><a href="https://www.youtube.com/@AnjaanInsaan">Youtube</a></li>
+                    <li class=""><a href="#">Linkedin</a></li>
+                    <li class=""><a href="#"></a></li>
+                </ul>            
+            </nav>        
+        </div>
+    </div>
+    <script src="/scripts/main.js"></script>
+</body>
+
+</html>
