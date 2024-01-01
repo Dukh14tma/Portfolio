@@ -78,7 +78,7 @@
     gap: 20px;
 }
 .ml-300{
-    margin-left: 550px;
+    margin-left: 400px;
 }
 .w-100{
     width: 100%;
@@ -109,7 +109,7 @@
         width: 300px;
     }
     .ml-300{
-        margin-left: 60px;
+        margin-left: auto;
     }
     .fit{
         height: 70px;
