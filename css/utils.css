@@ -101,7 +101,7 @@
 .dinline{
     display: inline;
 }
-@media only screen and (max-width:1040px) {
+@media only screen and (max-width:740px) {
     .gap-30{
         gap: 3px;
     }
