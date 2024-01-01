@@ -103,7 +103,7 @@
 }
 @media only screen and (max-width:1040px) {
     .gap-30{
-        gap: 5px;
+        gap: 3px;
     }
     .w-300{
         width: 300px;
