@@ -103,13 +103,13 @@
 }
 @media only screen and (max-width:920px) {
     .gap-30{
-        gap: 5px;
+        gap: 3px;
     }
     .w-300{
         width: 300px;
     }
     .ml-300{
-        margin-left: 50px;
+        margin-left: 60px;
     }
     .fit{
         height: 70px;
